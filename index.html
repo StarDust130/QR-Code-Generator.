@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+   <link rel="icon" href="https://img.icons8.com/color-glass/48/qr-code--v1.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>QR Code <br><span>Generator</span></h1>
+
+    <div class="container">
+       <p>Enter your Text or URL</p>
+        <input type="text"  placeholder="Enter Text or QR" id="qrText">
+        <div id="imgBox">
+            <img src="" id="qrImage">
+        </div>
+
+
+
+
+        <button type="button" onclick="generateQR()">Generate QR Code</button>
+        <button  type="button" onclick="changeColor()" id="cg">Click Me</button>
+
+        
+    </div>
+    
+</body>
+</html>
